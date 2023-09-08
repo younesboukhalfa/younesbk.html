@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    
+    <form action="/forms">
+        <label for="usrename">Username:</label>
+        <input type="text" name="username" id="username" placeholder="username">
+        <br>
+        <label for="possword" name="possword" >passowrd:</label>
+        <input type="possword" name="passowrd" id="passowrd">
+        <br>
+        <br>
+        <label for="dateBirth">Date of birth:</label>
+        <input type="date"name="dateBirth">
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+        <br>
+        <select name="country" id="country">
+            <option value="DZ">Algeria</option>
+            <option value="FR">France</option>
+            <option value="CN">Canada</option>
+        </select>
+        <br>
+        <label for="jobtitle">Student</label>
+        <input type="checkbox" name="jobtitle" id="jobtitle" value="student">
+        <label for="jobtitle">professinal</label>
+        <input type="checkbox"
+        name="jobtitle"
+        id="jobtitle"
+        value="Professional">
+        <br>
+        <label for="male">Male</label>
+        <input type="radio" value="gender" id="gender" >
+        <label for="female">Female</label>
+        <input type="radio" name="gender"value="Female">
+        <br>
+        <label for="comment">Put your comment:</label><br>
+        <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+
+    </form>
+</body>
+</html>
